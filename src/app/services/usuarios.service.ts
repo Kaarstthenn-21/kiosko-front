@@ -1,11 +1,10 @@
 import { Injectable } from "@angular/core";
-import { HttpClient, HttpHeaders } from "@angular/common/http";
+import { HttpClient } from "@angular/common/http";
 import { environment } from "src/environments/environment";
 import { Usuario,CreateUsuarioDTO } from "../models/usuario.model";
 import { Observable } from "rxjs";
 import { TokenService } from 'src/app/services/token.service';
 import { map } from "rxjs/operators";
-
 
 @Injectable({
     providedIn: "root",
