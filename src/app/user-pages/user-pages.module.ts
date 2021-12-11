@@ -7,11 +7,11 @@ const routes: Routes = [
     { path: 'login', component: LoginComponent },
 ]
 
-@NgModule({
-    declarations: [LoginComponent],
-    imports: [
-        CommonModule,
-        RouterModule.forChild(routes)
-    ]
-})
+// @NgModule({
+//     declarations: [LoginComponent],
+//     imports: [
+//         CommonModule,
+//         RouterModule.forChild(routes)
+//     ]
+// })
 export class UserPagesModule {}
